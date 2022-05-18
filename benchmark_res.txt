@@ -1,0 +1,32 @@
+1 workers:
+Avg times: {'md5 hashing': 1.9234498173390932e-05, 'download': 0.3051681457800169, 'save': 0.00012135187908416439}
+Overall: 1060.03s 
+
+2 workers:
+Avg times: {'md5 hashing': 1.6512227475794305e-05, 'download': 0.4120014925554138, 'save': 0.00012354326637833076}
+Overall: 715.209s 
+
+5 workers:
+Avg times: {'md5 hashing': 1.4049715218723515e-05, 'download': 0.42728882728275625, 'save': 0.0001441978358472468}
+Overall: 296.898s 
+
+10 workers:
+Avg times: {'md5 hashing': 1.4456568336362354e-05, 'download': 0.7381577883745979, 'save': 0.00017195493458895323}
+Overall: 256.422s 
+
+50 workers:
+Avg times: {'md5 hashing': 1.487928147692315e-05, 'download': 5.471949208034607, 'save': 0.00016196474891391408}
+Overall: 381.078s 
+
+100 workers:
+Avg times: {'md5 hashing': 1.4146426853015868e-05, 'download': 4.303967674136297, 'save': 0.00017634621644757728}
+Overall: 151.688s 
+
+500 workers:
+Avg times: {'md5 hashing': 1.2973835059227119e-05, 'download': 22.420167841315568, 'save': 0.00023490572197809917}
+Overall: 166.386s 
+
+1000 workers:
+Avg times: {'md5 hashing': 1.2105057664132372e-05, 'download': 44.20141907041308, 'save': 0.00020588550028562564}
+Overall: 171.374s 
+
