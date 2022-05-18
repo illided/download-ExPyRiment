@@ -74,7 +74,7 @@ def run_experiment(n_threads: int, dest_dir: str, links_filepath: str, limit=Non
     print(f"Downloaded successfully: {len(results)} out of {len(links)}")
 
     sum_dict = results[0].copy()
-    for res in results:
+    for res in results[1:]:
         for key, value in res.items():
             sum_dict[key] += value
     for key in sum_dict:
